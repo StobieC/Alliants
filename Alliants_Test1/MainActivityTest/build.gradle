@@ -1,0 +1,65 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+repositories {
+	mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    androidTestCompile fileTree(dir: 'libs', include: 'robotium-solo-5.3.2-SNAPSHOT.jar')
+    testCompile 'junit:junit:4.10'
+
+}
+
+android {
+    compileSdkVersion 'android-19'
+    buildToolsVersion '20.0.0'
+
+    android {
+        defaultConfig {
+            minSdkVersion 14
+        }
+
+        lintOptions {
+            abortOnError false
+        }
+        sourceSets
+                {
+                    androidTest
+                            {
+                                res.srcDirs = ['res']
+                                assets.srcDirs = ['assets']
+                            }
+                }
+    }
+    buildTypes {
+        release {
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+
+task assembleDebug(overwrite: true) {}
+
+task copyTask(type: Copy) {
+    from '/home/cameron/Desktop/Alliants_Test/bin/Alliants_Test_debug.apk'
+    into 'build/outputs/apk/'
+    rename {
+        'MainActivityTest-debug.apk'
+    }
+}
+
+assembleDebug.dependsOn copyTask
