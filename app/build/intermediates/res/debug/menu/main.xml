@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alliants.androidtest.MainActivity" >
+
+    <item
+        android:id="@+id/reload"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/reload"/>
+
+</menu>
+<!-- From: file:/home/cameron/Desktop/Alliants_Test1/app/src/main/res/menu/main.xml -->
