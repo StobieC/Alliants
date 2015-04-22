@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/labels"
+            android:text="@string/first_name" />
+
+        <TextView
+            android:id="@+id/first_name"
+            style="@style/lblValues" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/labels"
+            android:text="@string/surname" />
+
+        <TextView
+            android:id="@+id/surname"
+            style="@style/lblValues" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/labels"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/address_label"
+            style="@style/lblValues" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/labels"
+            android:text="@string/phone_number" />
+
+        <TextView
+            android:id="@+id/phone_label"
+            style="@style/lblValues"
+            android:gravity="right" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/labels"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/email_label"
+            style="@style/lblValues"
+            android:gravity="right" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/labels"
+            android:text="@string/createdAt" />
+
+        <TextView 
+            android:id="@+id/createdAt_label"
+            style="@style/lblValues"
+            android:gravity="right" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/labels"
+            android:text="@string/updatedAt" />
+
+        <TextView
+            android:id="@+id/updatedAt_label"
+            style="@style/lblValues"
+            android:gravity="right" />
+    </TableRow>
+
+</LinearLayout>

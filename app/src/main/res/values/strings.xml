@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alliants Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="reload">Reload</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="id">ID: </string>
+    <string name="first_name">First Name: </string>
+    <string name="surname">SurName: </string>
+    <string name="address">Address: </string>
+    <string name="phone_number">Phone Number: </string>
+    <string name="email">Email: </string>
+    <string name="createdAt">CreatedAt: </string>
+    <string name="updatedAt">UpdatedAt: </string>
+
+</resources>
