@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Snapt</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- description for navigation drawer for visually impaired -->
+    <string name="openDrawer">Open Navigation Drawer</string>
+    <string name="closeDrawer">Close Navigation Drawer</string>
+
+    <string name="phone_no">01622 845555</string>
+
+    <string name="no_dets">We don\'t use your details for anything else</string>
+
+    <!-- CameraSelectorDialogFragment Strings -->
+    <string name="select_camera">Select Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Strings for ScannerFragment -->
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+
+    <!-- Search Result Screen -->
+
+    <string name="tariff">Tariff name :</string>
+    <string name="usage">Usage :</string>
+    <string name="payment_method">Payment method :</string>
+    <string name="post_code">Postcode :</string>
+    <string name="contact">Contact your energy provider if this information looks incorrect</string>
+    <string name="supplier_name">Supplier name :</string>
+    <string name="statement_period">Statement period :</string>
+    <string name="meter_no">Meter number :</string>
+
+    <!-- email dialog strings-->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_instruction">To get started enter your email to sign in</string>
+
+    <!-- begin scan strings-->
+
+
+
+    <string name="begin_scan_instruction">Your energy bill should have a code like this. \nIt tells us about your current energy usage.</string>
+    <string name="separate_codes">We use this information to find the best deal \nfor your exact needs.</string>
+    <string name="no_code"><u>I don\'t have a bill with a code</u></string>
+    <string name="scan_bill">Scan your bill</string>
+
+
+    <!-- first time screen -->
+    <string name="find_your_bill">Find your bill</string>
+    <string name="scan_the_code">Scan the code with Snapt</string>
+    <string name="see_how_save">See how you can save </string>
+    <string name="tc"> <font fgcolor="#FF0000"> read the <a href="https://www.google.com">terms and conditions</a></font>.</string>
+    <string name="marketing">I agree that comparethemarket.com can \nkeep me up to date with the latest product \nand marketing information via email.</string>
+
+
+    <!-- title strings -->
+    <string name="start_title">Quick energy price comparison</string>
+    <string name="begin_scan_title">Find the code on your bill</string>
+    <string name="scan_title">Snap the code on your bill</string>
+    <string name="results_title">Your energy usage</string>
+
+    <string-array name="month_names">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

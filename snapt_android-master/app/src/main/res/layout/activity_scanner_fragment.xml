@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar">
+    </include>
+
+    <fragment android:name="com.mobile.ctm.snapt.view.ScannerFragment"
+        android:id="@+id/scanner_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tool_bar"
+        android:layout_alignParentBottom="true">
+
+
+    </fragment>
+
+
+
+
+
+
+
+ <fragment android:name="com.mobile.ctm.snapt.view.CameraBottomFragment"
+     android:id="@+id/bottom_bar"
+     android:layout_width="match_parent"
+     android:layout_height="35dp"
+     android:layout_gravity="bottom"
+     tools:layout="@layout/fragment_camera_bottom"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true" />
+
+    <fragment android:name="com.mobile.ctm.snapt.view.CameraTopFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_bar"
+        tools:layout="@layout/fragment_camera_top"
+        android:layout_below="@+id/tool_bar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center" />
+
+
+</RelativeLayout>
